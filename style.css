@@ -1,0 +1,28 @@
+h1{
+    font-size: 50px;
+}
+.tomato-highlight{
+    color: tomato;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+.half-width img{
+    width:100%;
+}
+section{
+    height: 500px;
+}
