@@ -10,19 +10,118 @@ body{
 }
 .link-button{
     text-decoration: none;
-    background-color: orange;
+    background-image: linear-gradient(45deg,blue,cyan);
     padding: 5px 10px;
     border-radius: 5px;
+    color:white;
 }
 .half-width{
     width:40%;
     float: left;
-    margin-left: 10px;
-    padding-left: 5px;
+    margin-left: 25px;
+    padding-left: 30px;
 }
 .half-width img{
     width:100%;
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
+}
+p{
+    color:dimgray;
+}
+#latest{
+    text-align: center;
+}
+.project{
+    width: 26%;
+    float: left;
+    margin-left: 60px;
+    padding-left: 20px;
+    box-shadow: 3px 3px 5px gray;
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+}
+.project img{
+    width: 100%;
+}
+h2{
+    font-size: 50px;
+}
+#latest-work{
+    background-color: rgba(193, 223, 223, 0.18);
+}
+.work-inquiry{
+    background-image: url(images/image9.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: 100%;
+    width: 65%;
+    background-size: 100%;
+    margin-left: 300px;
+}
+.left-centre{
+    padding-left: 90px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    color: white;
+}
+
+.challenge{
+    float: left;
+    width:50%;
+}
+.chat{
+    padding-top: 115px;
+    text-align-last: center;
+    
+}
+.work{
+    padding-top: 250px;
+}
+.linkbutton{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,red,tomato);
+    padding: 7px 12px;
+    border-radius: 5px;
+    color:white;
+
+}
+#experience{
+    position: left;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(160deg,aqua,red);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+.orange-highlight{
+    color: orange;
+}
+
+footer{
+    text-align: center;
+    font-weight: 700;
+}
+.experience-area{
+    background-color: rgba(0, 255, 255, 0.071);
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
 }
